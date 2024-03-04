@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+    <script src="https://kit.fontawesome.com/d8c7bc7444.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+   <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>
+                    <span>A</span>arthy.
+                </h1>
+            </div>
+            <ul  id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+        </nav>
+            <div class="home_content">
+               <div class="home_text">
+               <h1 class="first_text">Hello, my name is <span class="name">Aarthy Soundararajan</span></h1>
+               <h1 class="second_text"> I'm a <span class="typing">Front-End Developer</span></h1>
+               <p>I develop User Interface and Web Pages.</p>
+            </div>
+            <div>
+               <div class="home_img">
+                <img src="image/home1.jpg" alt="">
+               </div>
+            </div>
+
+        </div>
+    </div>
+</div>   
+
+<!-----------about-------->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="image/about.jpg" >
+        </div>
+         <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a Fresher software developer with experience in HTML, CSS, and JavaScript, and expertise in React frameworks.<br>
+                I am a fast learner and work closely with my team to create efficient, scalable, and user-friendly solutions that solve
+                real-world problems and also looking to build a career where I can apply my logical and technical skills, and work as a key 
+                player in a challenging and creative environment. Let’s collaborate to bring your ideas to life!</p> 
+                <p><a href=""download> Click her to Download Resume</a></p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link  "data-content="soft-skills">Soft Skills</p>
+                    <p class="tab-links" data-content="education">Education</p>
+                </div>
+                <div class="tab-contents active-tab " id="soft-skills">
+                    <ul>
+                        <li>Problem-Solving Skills</li>
+                        <li>Continuous Learning</li>
+                        <li>Communication Skills</li>
+                        <li>People Management</li>
+                        <li>Time Management</li>
+                        <li>Target Handling</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education" style="display: none;" >
+                    <ul>
+                        <li><span>Jeppiaar Engineering college, Anna University, Chennai</span><br>
+                            Bachelors: Computer Science Engineering, with CGPA of 8.25, 2019 -2023.</li>
+                        <li><span>Trinity Academy,Namakkal</span><br>
+                            65% in 12th, (2018-19) </li>
+                        <li><span>Kalaimagal Matric Higher Secondary School,Namakkal</span><br>
+                            92% in 10th, (2018-19) </li>
+                        
+                    </ul>
+                </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!------------------------------Skills----------------------->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">Technical Skills</h1>
+        <div class="skill-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <h2>Html css JavaScript</h2>
+                <p>Having Good knowledge in building Userinteface web Pages</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Programming Language</h2>
+                <h2>Java</h2>
+                <p>Beginner and having knowledge in basic concepts</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-jira"></i>
+                <h2>Work Flow</h2>
+                <h2>Github</h2>
+                <p>Having hands on experience from the projects</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!----------------project------------------>
+<div id="project">
+    <div class="containner">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png" >
+                <div class="layer">
+                    <h3>Simple Calculator</h3>
+                    <p>A simple Calculator designed to show visually one's skills and achievements in a webpage by using HTML, CSS  and Javascript </p>
+                    <a href="https://github.com/Aarthy15/Simple-Calculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png" >
+                <div class="layer">
+                    <h3>Form Validation</h3>
+                    <p>A simple Form Validation designed to show visually one's skills and achievements in a website by using HTML, CSS and JAVASCRIPT </p>
+                    <a href="https://github.com/Aarthy15/Form-Validation"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png" >
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>A personalized online space where individuals showcase their work, skills, and achievements. It serves as a digital resume, created using technologies like HTML, CSS, and JS </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="file:///E:/Github/Simple%20Web%20Page/index.html"  class="btn">see more</a>
+    </div>
+</div>
+<!--------------------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="class">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aarthysoundar15@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>6382736659</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aarthy-soundararajan-4812a0268/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Aarthy15"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="image/Aarthy Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Aarthy. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxBzHrkfeX5mxdl1vzV9S7JUiI_C-JhI4CdSkuz3E6hdTFldt-35w3wqsIly5EUMiITUw/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
